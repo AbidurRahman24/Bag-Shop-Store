@@ -45,6 +45,9 @@ h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 5.5rem;
 }
+h2{
+    font-size: 4rem;
+}
 h5{
     font-size: 2.4rem;
 }
@@ -63,6 +66,10 @@ span{
     border-radius: 25px;
     color: #fff;
     font-size:1.6rem;
+}
+input{
+    display:block;
+    font-size: 2rem;
 }
 
 /* Cover section css */
@@ -139,6 +146,25 @@ span{
 }
 .card-footer-button{
     margin:auto;
+}
+/* get in TOUCH */
+/* Horizental Vartically center */
+.get-in-touch{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    align-items:center;
+    background-color: orange;
+    color: #fff;
+    padding:20px;
+}
+.touch{
+    display: block;
+    margin:0 auto
+}
+.touch p{
+    color: #fff;
 }
 
 /* Responsive Media query  */
