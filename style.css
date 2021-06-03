@@ -42,6 +42,9 @@ h1{
     font-family: 'Bebas Neue', cursive;
     font-size: 5.5rem;
 }
+h5{
+    font-size: 2.4rem;
+}
 p{
     color: #363958;
     font-size: 1.6rem;
@@ -75,8 +78,30 @@ span{
 .cover-img img{
     width: 100%;
 }
+/* Fit section CSS   */
+.fit-section-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.fit-section-img img{
+    width: 100%;
+}
 
-
+.fit-section-info-card{
+    display: flex;
+    padding-right: 10px;
+    margin: 15px;
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.fit-section-info-card img{
+    width:80px;
+    height: 80px;;
+}
+.card-1-description {
+    margin: 0 15px;
+}
 
 /* Responsive Media query  */
 /* Mobile devices */
